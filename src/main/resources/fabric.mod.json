@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "headtpahere",
+  "version": "${version}",
+  "name": "Head TPA Here",
+  "description": "Click a player's head in a menu (like DonutSMP's /tpa menu) to instantly send them a /tpahere request.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["headtpahere.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
